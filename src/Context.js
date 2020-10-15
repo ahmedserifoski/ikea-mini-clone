@@ -12,7 +12,7 @@ const ContextProvider = (props) => {
     const addToCart = (newItem) => {
         setCartItems(prevItems => [...prevItems, newItem])
     }
-    // console.log(cartItems)
+    
 
     useEffect(() => {
         setFurniture(data)
@@ -26,7 +26,7 @@ const ContextProvider = (props) => {
         setCartItems([])
     }
     
-    console.log(cartItems)
+    // console.log(cartItems)
 
     return (
         <Context.Provider value={{furniture, addToCart, cartItems, removeFromCart, emptyCart}}>

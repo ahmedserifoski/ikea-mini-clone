@@ -12,7 +12,7 @@ const Cart = () => {
     const totalCost = function() {
         let total = 0
         for(let i = 0; i < cartItems.length; i++) {
-            console.log(total = total + cartItems[i].price)
+            total = total + cartItems[i].price
         }
         return total.toLocaleString("en-US", {style: "currency", currency: "CHF"})
     }
