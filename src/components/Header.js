@@ -14,7 +14,7 @@ const Header = () => {
             </Link>
             <Link to="/cart">
                 <div>
-                    <i className={cartItems.length > 0 ? `ri-shopping-cart-fill cart` : `ri-shopping-cart-line ri-2x`}></i>
+                    <i className={cartItems.length > 0 ? `ri-shopping-cart-fill cart` : `ri-shopping-cart-line cart ri-2x`}></i>
                 </div>
             </Link>
             

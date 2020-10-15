@@ -12,16 +12,24 @@ const ContextProvider = (props) => {
     const addToCart = (newItem) => {
         setCartItems(prevItems => [...prevItems, newItem])
     }
-    console.log(cartItems)
+    // console.log(cartItems)
 
     useEffect(() => {
         setFurniture(data)
     }, [])
+
+    const removeFromCart = (newItem) => {
+        setCartItems(prevItems => prevItems.filter(item => item.id !== newItem.id))
+    }
+
+    const emptyCart = () => {
+        setCartItems([])
+    }
     
-    
+    console.log(cartItems)
 
     return (
-        <Context.Provider value={{furniture, addToCart, cartItems}}>
+        <Context.Provider value={{furniture, addToCart, cartItems, removeFromCart, emptyCart}}>
             {props.children}
         </Context.Provider>
     )

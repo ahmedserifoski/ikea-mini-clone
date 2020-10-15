@@ -7,7 +7,7 @@ import "../App.css"
 const Furniture = () => {
     
     const {furniture} = useContext(Context)
-    console.log(furniture)
+    // console.log(furniture)
     
     const furnitureElements = furniture.map(onePiece => (
         <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>

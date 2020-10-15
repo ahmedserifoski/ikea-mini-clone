@@ -4,13 +4,22 @@ import "../App.css"
 
 
 
-const PieceOfFurniture = ({onePiece, cartItems}) => {
+const PieceOfFurniture = ({onePiece}) => {
 
-    const {addToCart} = useContext(Context)
+    const {addToCart, cartItems, removeFromCart} = useContext(Context)
 
     const [hovered, setHovered] = useState(false)
 
-    const cartItem = hovered && <i onClick={() => addToCart(onePiece)} className={`ri-add-circle-line cart`}></i>
+    const cartItem = () => {
+        const allreadyInCart = cartItems.some(element => element.id === onePiece.id)
+        if(allreadyInCart) {
+            return <i onClick={() => removeFromCart(onePiece)} className="ri-add-circle-fill cart"></i>
+            
+        } else {
+            return hovered ? <i onClick={() => addToCart(onePiece)} className="ri-add-circle-line cart"></i> : ""
+        }
+        
+    } 
 
     return (
         <div 
@@ -21,7 +30,7 @@ const PieceOfFurniture = ({onePiece, cartItems}) => {
             <img className="image" src={onePiece.furniture} alt=""/>
             <p className="name"><strong>{onePiece.name}</strong></p>
             <p className="price">{new Intl.NumberFormat('ch-CH', { style: 'currency', currency: 'CHF' }).format(onePiece.price)  }</p>
-            {cartItem}
+            {cartItem()}
         </div>
     )
 }
