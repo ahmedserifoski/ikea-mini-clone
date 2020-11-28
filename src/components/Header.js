@@ -12,11 +12,18 @@ const Header = () => {
             <Link to="/">
                 <img src={require("../images/ikea-logo.svg")} alt=""/>
             </Link>
-            <Link to="/cart">
+            <div className="nav">
+                <Link className="link" to="/">Home</Link>
+                <Link className="link" to="/cabinets">Cabinets</Link>
+                <Link className="link" to="/sofas">Sofas</Link>
+                <Link className="link" to="/tables">Tables</Link>
+                <Link className="link" to="/cart">
                 <div>
                     <i className={cartItems.length > 0 ? `ri-shopping-cart-fill cart` : `ri-shopping-cart-line cart ri-2x`}></i>
                 </div>
-            </Link>
+                </Link>
+            </div>
+            
             
         </header>
     )

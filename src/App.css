@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --black: #150605;
     --red: #EA453C;
@@ -10,15 +16,34 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 10px;
     
-    padding: 5px 10px;
-    -webkit-box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
+    /* -webkit-box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
     -moz-box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
-    box-shadow: 0px 2px 10px -5px rgba(21,6,5,1);
+    box-shadow: 0px 2px 10px -5px rgba(21,6,5,1); */
 }
 
 .header {
     text-align: center;
+    width: 100%;
+}
+
+.home {
+    background-image: url("./images/home.jpg");
+    height: 91vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+}
+
+.myHome {
+    position: absolute;
+    font-family: 'Sansita Swashed', cursive;
+    color: #23a2af;
+    font-size: 10vw;
+    top: 20%;
+    right: 10%;
 }
 
 .furniture {
@@ -28,7 +53,15 @@ header {
     flex-wrap: wrap;
     margin: 0 auto;
     justify-content: center;
+}
+
+.cabinets {
     
+    height: 91vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
 }
 
 .card {
@@ -51,13 +84,27 @@ header {
     cursor: pointer;
 }
 
+.nav {
+    padding-right: 3em;
+    display: flex;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
 .cart {
     color: var(--black);
     font-size: 2rem;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 15px;
+    right: 15px;
     cursor: pointer;
+    margin-left: 1em;
 }
 
 main.cart-page {
