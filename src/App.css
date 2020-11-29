@@ -27,7 +27,7 @@ header {
     text-align: center;
     width: 100%;
 }
-
+/* 
 .home {
     background-image: url("./images/home.jpg");
     height: 91vh;
@@ -44,7 +44,7 @@ header {
     font-size: 10vw;
     top: 20%;
     right: 10%;
-}
+} */
 
 .furniture {
     max-width: 1000px;
@@ -109,6 +109,8 @@ header {
 
 main.cart-page {
     padding: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .cart-page > h1 {

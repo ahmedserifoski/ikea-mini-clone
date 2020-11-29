@@ -7,7 +7,7 @@ import "../App.css"
 const Cabinets = () => {
     
     const {furniture} = useContext(Context)
-    console.log(furniture.slice(5, 10))
+    
     const sofas = furniture.slice(5, 10)
     const furnitureElements = sofas.map(onePiece => (
         <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>
