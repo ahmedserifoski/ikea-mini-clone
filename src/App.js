@@ -10,16 +10,13 @@ import Tables from "./pages/Tables"
 
 import './App.css';
 
-import {Switch, Route, Link, Router} from "react-router-dom"
+import {Switch, Route} from "react-router-dom"
 
 function App() {
   return (
     <div className="container">
       
       <Header />
-
-        
-
       <Switch>
         <Route exact path="/">
           <Furniture/>
