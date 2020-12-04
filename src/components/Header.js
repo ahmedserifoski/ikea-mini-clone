@@ -27,7 +27,7 @@ const Header = () => {
         <Link className="cartLink" to="/cart">
                 <i className={cartItems.length > 0 ? `ri-shopping-cart-fill cart` : `ri-shopping-cart-line cart ri-2x`}></i>
         </Link>
-        <MDBNavbarToggler className="toggler mr-4" onClick={toggleCollapse} />
+        <MDBNavbarToggler className="toggler mr-5" onClick={toggleCollapse} />
         
         <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
           <MDBNavbarNav right>
