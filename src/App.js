@@ -7,6 +7,7 @@ import Cart from "./pages/Cart"
 import Cabinets from "./pages/Cabinets"
 import Sofas from "./pages/Sofas"
 import Tables from "./pages/Tables"
+import DetailedPage from "./pages/detailedPages/DetailedPage"
 
 import './App.css';
 
@@ -32,6 +33,9 @@ function App() {
         </Route>
         <Route path="/cart">
           <Cart />
+        </Route>
+        <Route path="/home/:detailedId">
+          <DetailedPage />
         </Route>
       </Switch>
       
