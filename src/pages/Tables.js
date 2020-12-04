@@ -4,17 +4,17 @@ import {Context} from "../Context"
 
 import "../App.css"
 
-const Tables = () => {
+const Cabinets = () => {
     
     const {furniture} = useContext(Context)
     
-    const tables = furniture.slice(10, 14)
-    const furnitureElements = tables.map(onePiece => (
+    const sofas = furniture.slice(10, 14)
+    const furnitureElements = sofas.map(onePiece => (
         <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>
     ))
     return (
-        <div className="tables">
-            <h1 className="header">Our Tables</h1>
+        <div className="sofas">
+            <h1 className="header">Our Sofas</h1>
             <div className="furniture">
                 {furnitureElements}
             </div>
@@ -22,4 +22,4 @@ const Tables = () => {
     )
 }
 
-export default Tables
+export default Cabinets

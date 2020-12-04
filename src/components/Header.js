@@ -40,8 +40,8 @@ const Header = () => {
                 <MDBNavItem>
                     <MDBNavLink className="link" to="/sofas" onClick={toggleCollapse}>Sofas</MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem className="lastLink">
-                    <MDBNavLink className="link" to="/tables" onClick={toggleCollapse}>Tables</MDBNavLink>
+                <MDBNavItem>
+                  <MDBNavLink className="link lastLink" to="/tables" onClick={toggleCollapse}>Tables</MDBNavLink>
                 </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>

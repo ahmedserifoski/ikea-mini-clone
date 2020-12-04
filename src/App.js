@@ -28,7 +28,7 @@ function App() {
           <Sofas />
         </Route>
         <Route path="/tables">
-          <Tables />
+            <Tables />
         </Route>
         <Route path="/cart">
           <Cart />
