@@ -5,11 +5,12 @@ import "../App.css"
 import {Link} from "react-router-dom"
 
 const PieceOfFurniture = ({onePiece}) => {
-
+    //get following items with useContext
     const {addToCart, cartItems, removeFromCart} = useContext(Context)
 
     const [hovered, setHovered] = useState(false)
 
+    //display/hide the plus iteam to add and delete from
     const cartItem = () => {
         const allreadyInCart = cartItems.some(element => element.id === onePiece.id)
         if(allreadyInCart) {
@@ -22,6 +23,7 @@ const PieceOfFurniture = ({onePiece}) => {
     } 
 
     return (
+        
         <Link to={`/home/${onePiece.id}`}>
             <div 
                 onMouseLeave={() => setHovered(false)} 

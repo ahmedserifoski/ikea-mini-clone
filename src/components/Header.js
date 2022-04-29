@@ -18,10 +18,10 @@ const Header = () => {
 
     return (
         
-      <MDBNavbar light expand="md">
+      <MDBNavbar className="pl-0" light expand="md">
         
-        <MDBNavLink to="/">
-            <img src={require("../images/ikea-logo.svg")} alt=""/>
+        <MDBNavLink className="pl-0" to="/" >
+            <img  src={require("../images/ikea-logo.svg")} alt=""/>
         </MDBNavLink>
         
         <Link className="cartLink" to="/cart">

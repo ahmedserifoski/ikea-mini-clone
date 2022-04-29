@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
 import Header from "./components/Header"
 
@@ -9,27 +9,47 @@ import Sofas from "./pages/Sofas"
 import Tables from "./pages/Tables"
 import DetailedPage from "./pages/detailedPages/DetailedPage"
 
+import PieceOfFurniture from "./components/pieceOfFurniture"
+
+import {Context} from "./Context"
+
 import './App.css';
 
 import {Switch, Route} from "react-router-dom"
 
 function App() {
+
+  const {furniture} = useContext(Context)
+
+  const cabinets = furniture.slice(0, 5)
+
+
   return (
     <div className="container">
       
       <Header />
       <Switch>
         <Route exact path="/">
-          <Furniture/>
+          <Furniture furniture={furniture} />
         </Route>
+        {/* making one example with props.children just to prove that I can do that =) */}
         <Route path="/cabinets">
-          <Cabinets />
+          <Cabinets>
+          <div className="cabinets">
+              <h1 className="header">Our Cabinets</h1>
+              <div className="furniture">
+                {cabinets.map(onePiece => (
+                    <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>
+                ))}
+              </div>
+          </div>
+          </Cabinets>
         </Route>
         <Route path="/sofas">
-          <Sofas />
+          <Sofas furniture={furniture} />
         </Route>
         <Route path="/tables">
-            <Tables />
+            <Tables furniture={furniture} />
         </Route>
         <Route path="/cart">
           <Cart />

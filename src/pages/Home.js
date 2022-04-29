@@ -1,11 +1,11 @@
 import React, {useContext} from 'react'
-import {Context} from "../Context"
+
 import PieceOfFurniture from "../components/pieceOfFurniture"
 import "../App.css"
 
-const Furniture = () => {
+const Furniture = ({furniture}) => {
     
-    const {furniture} = useContext(Context)
+
 
     const furnitureElements = furniture.map(onePiece => (
         <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>
