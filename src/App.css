@@ -12,6 +12,10 @@
     --blue: #5ddeec;
 }
 
+p {
+    color: var(--black);
+}
+
 .header {
     text-align: center;
     width: 100%;
@@ -40,6 +44,8 @@
     position: relative;
 }
 
+
+
 .image {
     height: 150px;
     max-height: 200px;
@@ -58,8 +64,11 @@
 .navbar { 
     box-shadow: none !important;
     margin-bottom: 1em;
-    padding-right: 0;
-    padding-left: 0;
+    
+}
+
+.toggler {
+    margin-right: 3em;
 }
 
 .link {
@@ -68,6 +77,51 @@
     margin-right: 15px;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
+}
+
+.detailPage {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: 
+        "detailPage__img detailPage__img"
+        "detailPage__title detailPage__title"
+        "detailPage__description detailPage__description"
+        "detailPage__price detailPage__price"
+    ;
+}
+
+.detailPage__img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    grid-area: detailPage__img;
+    position: relative;
+}
+
+
+
+.detailPage__title {
+    margin: 0.5em 0;
+    grid-area: detailPage__title;
+}
+
+.detailedCart {
+    font-size: 1.5rem;
+   float: right;
+    /* position: absolute;
+    top: 5rem;
+    right: 5rem; */
+    cursor: pointer;
+}
+
+.detailPage__price {
+    text-align: right;
+    margin: 0.5em 0;
+    grid-area: detailPage__price;
+}
+
+.detailPage__description {
+    grid-area: detailPage__description;
 }
 
 
@@ -117,7 +171,6 @@ div.order-button > button {
     align-items: center;
     margin: 20px 0;
 }
-
 
 
 .cart-item img {

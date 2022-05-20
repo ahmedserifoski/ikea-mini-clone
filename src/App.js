@@ -1,12 +1,10 @@
+
 import React from 'react';
 
 import Header from "./components/Header"
 
 import Furniture from "./pages/Furniture"
 import Cart from "./pages/Cart"
-// import Cabinets from "./pages/Cabinets"
-// import Sofas from "./pages/Sofas"
-// import Tables from "./pages/Tables"
 
 import './App.css';
 
@@ -40,3 +38,4 @@ function App() {
 }
 
 export default App;
+

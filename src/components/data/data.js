@@ -18,85 +18,99 @@ const data = [
         id: 1,
         name: "LOMMARP",
         price: 299,
-        furniture: cabinet1
+        furniture: cabinet1,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 2,
         name: "HAVSTA",
         price: 399,
-        furniture: cabinet2
+        furniture: cabinet2,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 3,
         name: "IVAR",
         price: 80,
-        furniture: cabinet3
+        furniture: cabinet3,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 4,
         name: "LIXHULT",
         price: 69,
-        furniture: cabinet4
+        furniture: cabinet4,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 5,
         name: "BRIMNES",
         price: 79,
-        furniture: cabinet5
+        furniture: cabinet5,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 6,
         name: "SÖRVALLEN",
         price: 1399,
-        furniture: sofa1
+        furniture: sofa1,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 7,
         name: "NOCKEBY",
         price: 1299,
-        furniture: sofa2
+        furniture: sofa2,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 8,
         name: "SÖDERHAMN",
         price: 1399,
-        furniture: sofa3
+        furniture: sofa3,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 9, 
         name: "VIMLE",
         price: 1099,
-        furniture: sofa4
+        furniture: sofa4,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 10,
         name: "NORSBORG",
         price: 899,
-        furniture: sofa5
+        furniture: sofa5,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 11,
         name: "SKOGSTA",
         price: 599,
-        furniture: table1
+        furniture: table1,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 12,
         name: "BARKARBY",
         price: 399,
-        furniture: table2
+        furniture: table2,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 13,
         name: "MÖCKELBZ",
         price: 599,
-        furniture: table3
+        furniture: table3,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
     {
         id: 14,
         name: "EKEDALEN",
         price: 299,
-        furniture: table4
+        furniture: table4,
+        description: "Are you ready to talk furniture? Whether yours is beautifully antique, handily thrifted, desperately-purchased-when-you-realized-you-had-nothing-to-sit-on, or of any other furniture variety, you have it. And if you're a word lover, you can class up the joint and maybe even impress a few guests with some detailed knowledge about your stuff! Or the stuff at that fancy hotel you try to stay in once a year. To help you get started, here's a list of 23 fabulous terms to describe furniture, and many other items of decor you might have."
     },
 ]
 

@@ -18,16 +18,16 @@ const Header = () => {
 
     return (
         
-      <MDBNavbar light expand="md">
+      <MDBNavbar className="pl-0" light expand="md">
         
-        <MDBNavLink to="/">
-            <img src={require("../images/ikea-logo.svg")} alt=""/>
+        <MDBNavLink className="pl-0" to="/" >
+            <img  src={require("../images/ikea-logo.svg")} alt=""/>
         </MDBNavLink>
         
         <Link className="cartLink" to="/cart">
                 <i className={cartItems.length > 0 ? `ri-shopping-cart-fill cart` : `ri-shopping-cart-line cart ri-2x`}></i>
         </Link>
-        <MDBNavbarToggler className="toggler mr-4" onClick={toggleCollapse} />
+        <MDBNavbarToggler className="toggler mr-5" onClick={toggleCollapse} />
         
         <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
           <MDBNavbarNav right>
@@ -40,8 +40,8 @@ const Header = () => {
                 <MDBNavItem>
                     <MDBNavLink className="link" to="/sofas" onClick={toggleCollapse}>Sofas</MDBNavLink>
                 </MDBNavItem>
-                <MDBNavItem className="lastLink">
-                    <MDBNavLink className="link" to="/tables" onClick={toggleCollapse}>Tables</MDBNavLink>
+                <MDBNavItem>
+                  <MDBNavLink className="link lastLink" to="/tables" onClick={toggleCollapse}>Tables</MDBNavLink>
                 </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
