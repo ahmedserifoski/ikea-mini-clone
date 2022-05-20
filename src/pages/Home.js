@@ -7,9 +7,11 @@ const Furniture = () => {
     
     const {furniture} = useContext(Context)
 
-    const furnitureElements = furniture.map(onePiece => (
+    let furnitureElements = furniture.map(onePiece => (
         <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>
     ))
+
+    if("window")
 
     return (
         <div className="home">
