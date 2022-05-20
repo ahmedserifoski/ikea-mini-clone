@@ -5,6 +5,8 @@ import {Context} from "../Context"
 import "../App.css"
 
 const Cabinets = () => {
+
+    console.log(window.location.href.split('/'))
     
     const {furniture} = useContext(Context)
     
