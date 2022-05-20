@@ -32,7 +32,7 @@ function App() {
         <Route exact path="/">
           <Furniture furniture={furniture} />
         </Route>
-        {/* making one example with props.children just to prove that I can do that =) */}
+        {/* making one example with props.children just to prove that I can do it =) */}
         <Route path="/cabinets">
           <Cabinets>
           <div className="cabinets">
@@ -45,8 +45,9 @@ function App() {
           </div>
           </Cabinets>
         </Route>
+        {/* making one example with render props just to prove that I can do it =) */}
         <Route path="/sofas">
-          <Sofas furniture={furniture} />
+          <Sofas render={() => furniture} />
         </Route>
         <Route path="/tables">
             <Tables furniture={furniture} />

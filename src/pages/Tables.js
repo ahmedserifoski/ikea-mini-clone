@@ -16,7 +16,7 @@ const Tables = ({furniture}) => {
 
        
         return (
-        <div className="sofas">
+        <div className="tables">
             <h1 className="header">Our Tables</h1>
             <div className="furniture">
                 {furnitureElements}

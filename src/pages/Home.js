@@ -13,7 +13,7 @@ const Furniture = ({furniture}) => {
 
     return (
         <div className="home">
-            <h1 className="header">Out Furniture</h1>
+            <h1 className="header">Our Furniture</h1>
             <div className="furniture">
                 {furnitureElements}
             </div>

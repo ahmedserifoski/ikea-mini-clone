@@ -4,13 +4,13 @@ import PieceOfFurniture from "../components/pieceOfFurniture"
 
 import "../App.css"
 
-const Sofas = ({furniture}) => {
+const Sofas = (props) => {
     
 
     
-    const sofas = furniture.slice(5, 10)
-    const furnitureElements = sofas.map(onePiece => (
-        <PieceOfFurniture key={onePiece.id} onePiece={onePiece}/>
+    const sofas = props.render().slice(5, 10)
+    const furnitureElements = sofas.map((onePiece, i) => (
+        <PieceOfFurniture key={i} onePiece={onePiece}/>
     ))
     return (
         <div className="sofas">
