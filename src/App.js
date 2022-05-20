@@ -2,11 +2,11 @@ import React from 'react';
 
 import Header from "./components/Header"
 
-import Furniture from "./pages/Home"
+import Furniture from "./pages/Furniture"
 import Cart from "./pages/Cart"
-import Cabinets from "./pages/Cabinets"
-import Sofas from "./pages/Sofas"
-import Tables from "./pages/Tables"
+// import Cabinets from "./pages/Cabinets"
+// import Sofas from "./pages/Sofas"
+// import Tables from "./pages/Tables"
 
 import './App.css';
 
@@ -22,13 +22,13 @@ function App() {
           <Furniture/>
         </Route>
         <Route path="/cabinets">
-          <Cabinets />
+        <Furniture/>
         </Route>
         <Route path="/sofas">
-          <Sofas />
+        <Furniture/>
         </Route>
         <Route path="/tables">
-          <Tables />
+        <Furniture/>
         </Route>
         <Route path="/cart">
           <Cart />
