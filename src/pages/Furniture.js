@@ -31,7 +31,7 @@ const Furniture = () => {
             <h1 className="header">{window.location.href.split("/")[3] === "" ? "Our Furniture" : "Our " + window.location.href.split("/")[3].charAt(0).toUpperCase() + window.location.href.split("/")[3].slice(1)}</h1>
             <div className="furniture">
                 {window.location.href.split("/")[3] === "" && allFurniture}
-                {window.location.href.split("/")[3] === "cabinets" && cabinets}
+             {window.location.href.split("/")[3] === "cabinets" && cabinets}
                 {window.location.href.split("/")[3] === "sofas" && sofas}
                 {window.location.href.split("/")[3] === "tables" && tables}
             </div>

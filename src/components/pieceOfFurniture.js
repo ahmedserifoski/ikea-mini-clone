@@ -27,7 +27,7 @@ const PieceOfFurniture = ({onePiece}) => {
         <Link to={`/home/${onePiece.id}`}>
             <div 
                 onMouseLeave={() => setHovered(false)} 
-                onMouseEnter={() => setHovered(true)} 
+                onMouseEnter={() => setHovered(true)}
                 className="card"
             >
                 <img className="image" src={onePiece.furniture} alt=""/>
