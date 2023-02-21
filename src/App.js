@@ -33,6 +33,7 @@ function App() {
           <Furniture furniture={furniture} />
         </Route>
         {/* making one example with props.children just to prove that I can do it =) */}
+        {/*add another comment*/}
         <Route path="/cabinets">
           <Cabinets>
           <div className="cabinets">
