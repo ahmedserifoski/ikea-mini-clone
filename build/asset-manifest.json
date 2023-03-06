@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e48f770c.chunk.css",
+    "main.js": "/static/js/main.c8bb8619.chunk.js",
+    "main.js.map": "/static/js/main.c8bb8619.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc9bb947.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc9bb947.js.map",
+    "static/css/2.e6a24949.chunk.css": "/static/css/2.e6a24949.chunk.css",
+    "static/js/2.accd25c7.chunk.js": "/static/js/2.accd25c7.chunk.js",
+    "static/js/2.accd25c7.chunk.js.map": "/static/js/2.accd25c7.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.073b25141b6a8d66bb2af174dee1f546.js": "/precache-manifest.073b25141b6a8d66bb2af174dee1f546.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e6a24949.chunk.css.map": "/static/css/2.e6a24949.chunk.css.map",
+    "static/css/main.e48f770c.chunk.css.map": "/static/css/main.e48f770c.chunk.css.map",
+    "static/js/2.accd25c7.chunk.js.LICENSE.txt": "/static/js/2.accd25c7.chunk.js.LICENSE.txt",
+    "static/media/cabinet-1.webp": "/static/media/cabinet-1.1d48abf8.webp",
+    "static/media/cabinet-2.webp": "/static/media/cabinet-2.ed54cfa7.webp",
+    "static/media/cabinet-3.webp": "/static/media/cabinet-3.7b00d570.webp",
+    "static/media/cabinet-4.webp": "/static/media/cabinet-4.7e1a4bf0.webp",
+    "static/media/cabinet-5.webp": "/static/media/cabinet-5.e984d3e2.webp",
+    "static/media/ikea-logo.svg": "/static/media/ikea-logo.f88b07ce.svg",
+    "static/media/remixicon.css": "/static/media/remixicon.9915fef9.woff2",
+    "static/media/sofa-1.webp": "/static/media/sofa-1.e3c46c4e.webp",
+    "static/media/sofa-2.webp": "/static/media/sofa-2.9dce23aa.webp",
+    "static/media/sofa-3.webp": "/static/media/sofa-3.bce0c0d0.webp",
+    "static/media/sofa-4.webp": "/static/media/sofa-4.f3676822.webp",
+    "static/media/sofa-5.webp": "/static/media/sofa-5.e922a0b5.webp",
+    "static/media/table-1.webp": "/static/media/table-1.a9015f44.webp",
+    "static/media/table-2.webp": "/static/media/table-2.8cd42557.webp",
+    "static/media/table-3.webp": "/static/media/table-3.edbb9116.webp",
+    "static/media/table-4.webp": "/static/media/table-4.f46e0d86.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc9bb947.js",
+    "static/css/2.e6a24949.chunk.css",
+    "static/js/2.accd25c7.chunk.js",
+    "static/css/main.e48f770c.chunk.css",
+    "static/js/main.c8bb8619.chunk.js"
+  ]
+}
