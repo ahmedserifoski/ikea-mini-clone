@@ -6,8 +6,6 @@ import "../App.css"
 
 const Sofas = (props) => {
     
-
-    
     const sofas = props.render().slice(5, 10)
     const furnitureElements = sofas.map((onePiece, i) => (
         <PieceOfFurniture key={i} onePiece={onePiece}/>
