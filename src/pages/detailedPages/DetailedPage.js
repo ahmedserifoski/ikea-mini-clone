@@ -5,21 +5,24 @@ import {Context} from "../../Context"
 
 const DetailedPages = () => {
 
-    const {addToCart, cartItems, removeFromCart, onePiece} = useContext(Context)
+    const {addToCart, cartItems, removeFromCart} = useContext(Context)
     const [hovered, setHovered] = useState(false)
     const {detailedId} = useParams()
     const thisService = data.find(service => service.id == detailedId)
     // console.log(thisService.name)
 
+    if(!thisService) {
+        return <h2 className="header">Product not found</h2>
+    }
+
     //display/hide the plus iteam to add and delete from
     const cartItem = () => {
-        const allreadyInCart = cartItems.some(element => element.id === detailedId)
-        console.log(cartItems)
+        const allreadyInCart = cartItems.some(element => element.id === thisService.id)
         if(allreadyInCart) {
-            return <i onClick={() => removeFromCart(onePiece)} className="ri-add-circle-fill detailedCart"></i>
+            return <i onClick={() => removeFromCart(thisService)} className="ri-add-circle-fill detailedCart"></i>
             
         } else {
-            return hovered ? <i onClick={() => addToCart(onePiece)} className="ri-add-circle-line detailedCart"></i> : ""
+            return hovered ? <i onClick={() => addToCart(thisService)} className="ri-add-circle-line detailedCart"></i> : ""
         }
         
     } 
