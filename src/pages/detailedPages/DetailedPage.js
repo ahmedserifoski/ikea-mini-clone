@@ -8,7 +8,7 @@ const DetailedPages = () => {
     const {addToCart, cartItems, removeFromCart} = useContext(Context)
     const [hovered, setHovered] = useState(false)
     const {detailedId} = useParams()
-    const thisService = data.find(service => service.id == detailedId)
+    const thisService = data.find(service => service.id === Number(detailedId))
     // console.log(thisService.name)
 
     if(!thisService) {
@@ -34,7 +34,8 @@ const DetailedPages = () => {
         >
             <img 
                 className="detailPage__img" 
-                src={thisService.furniture} 
+                src={thisService.furniture}
+                alt={thisService.name}
                 
             />
             <h2 className="detailPage__title">{thisService.name} {cartItem()}</h2>

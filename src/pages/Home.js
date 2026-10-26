@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import React from 'react'
 
 import PieceOfFurniture from "../components/pieceOfFurniture"
 import "../App.css"
